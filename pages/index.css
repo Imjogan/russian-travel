@@ -7,6 +7,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-swift/header__lang-swift.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/_padding-margin/lead_padding-margin.css);
 @import url(../blocks/lead/_sizes/lead_sizes.css);
@@ -42,6 +43,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/_padding-margin/cover_padding-margin.css);
 @import url(../blocks/cover/_sizes/cover_sizes.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);

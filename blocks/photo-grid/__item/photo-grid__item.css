@@ -3,4 +3,9 @@
   justify-content: stretch;
   object-fit: cover;
   max-width: 100%;
+  transition: opacity .3s ease-in-out;
+}
+
+.photo-grid__item:hover {
+  opacity: .5;
 }
