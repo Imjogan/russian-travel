@@ -1,0 +1,16 @@
+.footer_padding-margin {
+  margin: 0 auto;
+  padding: 0 48px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_padding-margin {
+    padding: 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer_padding-margin {
+    padding: 0 16px 24px;
+  }
+}

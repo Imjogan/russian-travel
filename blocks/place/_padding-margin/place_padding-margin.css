@@ -1,0 +1,40 @@
+.place_padding-margin {
+  margin: 0 auto 80px;
+  grid-gap: 48px 40px;
+}
+
+.place_padding-margin:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place_padding-margin {
+    grid-gap: 48px 32px;
+  }
+
+  .place_padding-margin:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .place_padding-margin {
+    margin-bottom: 73px;
+    grid-gap: 48px 28px;
+  }
+  
+  .place_padding-margin:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place_padding-margin {
+    margin-bottom: 49px;
+    grid-gap: 32px 16px;
+  }
+  
+  .place_padding-margin:last-of-type {
+    margin-bottom: 0;
+  }
+}

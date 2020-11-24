@@ -1,0 +1,18 @@
+.gallery_padding-margin {
+  padding: 0 48px;
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery_padding-margin {
+    padding: 0 24px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .gallery_padding-margin {
+    padding: 0 16px;
+    margin-bottom: 88px;
+  }
+}

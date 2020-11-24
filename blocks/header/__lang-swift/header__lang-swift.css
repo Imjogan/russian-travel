@@ -1,0 +1,6 @@
+.header__lang-swift {
+  display: flex;
+  flex-direction: row;
+  justify-self: end;
+  align-self: center;
+}

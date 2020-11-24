@@ -1,0 +1,6 @@
+.photo-grid__item {
+  align-self: stretch;
+  justify-content: stretch;
+  object-fit: cover;
+  max-width: 100%;
+}

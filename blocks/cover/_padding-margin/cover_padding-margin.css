@@ -1,0 +1,16 @@
+.cover_padding-margin {
+  margin: 0 auto 92px;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cover_padding-margin {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .cover_padding-margin {
+    margin-bottom: 64px;
+  }
+}
