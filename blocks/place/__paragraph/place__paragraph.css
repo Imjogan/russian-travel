@@ -4,7 +4,8 @@
   padding: 0;
   line-height: 163%;
   font-size: 18px;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .place__paragraph:last-of-type {
@@ -15,19 +16,11 @@
   .place__paragraph {
     margin-bottom: 27px;
   }
-  
-  .place__paragraph:last-of-type {
-    margin: 0;
-  }
 }
 
 @media screen and (max-width: 790px) {
   .place__paragraph {
     margin-bottom: 25px;
     font-size: 16px;
-  }
-  
-  .place__paragraph:last-of-type {
-    margin: 0;
   }
 }

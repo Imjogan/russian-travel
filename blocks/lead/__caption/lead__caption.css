@@ -1,8 +1,11 @@
 .lead__caption {
   margin: 0;
   line-height: 140%;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 984px) {

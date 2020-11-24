@@ -4,7 +4,8 @@
   padding: 0;
   line-height: 122%;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
   text-decoration: none;
   border-bottom: 2px solid white;
   transition: opacity .2s ease-in-out;
