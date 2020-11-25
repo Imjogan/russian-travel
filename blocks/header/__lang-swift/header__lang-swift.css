@@ -1,6 +1,10 @@
 .header__lang-swift {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-self: end;
   align-self: center;
+  outline: 1px solid red;
+  list-style: none;
 }

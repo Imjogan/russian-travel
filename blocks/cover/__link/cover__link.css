@@ -1,31 +1,44 @@
 .cover__link {
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-areas: "cover__content";
-    grid-auto-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 0;
-    text-decoration: none;
-    color: white;
-  }
+  margin: 0 auto 92px;
+  padding: 0;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1184px);
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+  color: white;
+}
   
-  .cover__link::after {
-    display: block;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:#2A2C2F;
-    opacity: .3;
-    z-index: -1;
-    transition: opacity .5s ease-in-out;
-  }
+.cover__link::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#2A2C2F;
+  opacity: .3;
+  z-index: -1;
+  transition: opacity .5s ease-in-out;
+}
   
-  .cover__link:hover::after {
-    opacity: .8;
+.cover__link:hover::after {
+  opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    margin-bottom: 88px;
   }
+}
+  
+@media screen and (max-width: 520px) {
+  .cover__link {
+    margin-bottom: 64px;
+  }
+}
